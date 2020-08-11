@@ -3,7 +3,7 @@ File: index.html
 Created: Monday, 10th August 2020 8:56:11 am
 Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
 -----
-Last Modified: Tuesday, 11th August 2020 10:41:09 am
+Last Modified: Tuesday, 11th August 2020 4:07:29 pm
 Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
 -----
 Copyright (c) 2020 @quib_Self
@@ -30,18 +30,24 @@ Copyright (c) 2020 @quib_Self
 </head>
 
 <body>
-    <section class="banner-container container-fluid" id="AQUIB">
-        <div class="row vh-100">
-            <div class="col-md-9 banner-column">
-                <h1 class="display-4 font-weight-bolder">Hi, I'm AQUIB</h1>
-                <h6>... an apprentice of this surprised-earth.!</h6>
+    <section class="banner-container container-fluid d-none d-md-block " id="AQUIB">
+        <div class="container d-flex justify-content-center flex-column text-center ">
+            <div class="row vh-100 ">
+                <div class="col-md-12 banner-column">
+                    <h1 class="display-4 font-weight-bolder">Hi, I'm AQUIB</h1>
+                    <h6>... an apprentice of this surprised-earth.!</h6>
+                </div>
             </div>
         </div>
     </section>
 
     <!--This is navbar section -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-container">
-        <a class="navbar-brand font-weight-bolder" href="#AQUIB">AquiB</a>
+        <a class="navbar-brand " href="#AQUIB">
+            <div class="logo-img">
+                <img src="#" class="img-fluid" alt="">
+            </div>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -182,8 +188,8 @@ Copyright (c) 2020 @quib_Self
         <div class="carousel-inner py-5 ">
             <div class="carousel-item active py-5">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 mb-4">
+                    <div class="row ml-auto">
+                        <div class="col-sm-12 col-lg-4 mb-4">
                             <div class="card ml-auto" style="width: 20rem;">
                                 <img src="images/projects/work-1.jpg" class="card-ims-top" alt="">
                                 <div class="card-body">
@@ -194,7 +200,7 @@ Copyright (c) 2020 @quib_Self
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="col-sm-12  col-lg-4 mb-4">
                             <div class="card" style="width: 20rem;">
                                 <img src="images/projects/work-2.jpg" class="card-ims-top" alt="">
                                 <div class="card-body">
@@ -206,7 +212,7 @@ Copyright (c) 2020 @quib_Self
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="col-sm-12 col-lg-4 mb-4">
                             <div class="card" style="width: 20rem;">
                                 <img src="images/projects/work-3.jpg" class="card-ims-top" alt="">
                                 <div class="card-body">
@@ -224,7 +230,7 @@ Copyright (c) 2020 @quib_Self
 
             <div class="carousel-item py-5">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ml-auto">
                         <div class=" col-md-4 mb-4">
                             <div class="card ml-auto" style="width: 20rem;">
                                 <img src="images/projects/work-4.jpg" class="card-ims-top" alt="">
