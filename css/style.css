@@ -3,7 +3,7 @@
  * Created: Monday, 10th August 2020 9:04:11 am
  * Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
- * Last Modified: Tuesday, 11th August 2020 4:01:31 pm
+ * Last Modified: Tuesday, 11th August 2020 4:41:46 pm
  * Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
  * Copyright (c) 2020 @quib_Self
@@ -47,6 +47,11 @@ h6 {
    background-color: bisque;
 }
 
+.brand-image img {
+
+   max-width: 55%;
+
+}
 
 .about-container {
    background-color: #282C35;
