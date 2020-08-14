@@ -3,7 +3,7 @@
  * Created: Monday, 10th August 2020 9:04:11 am
  * Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
- * Last Modified: Thursday, 13th August 2020 9:57:12 pm
+ * Last Modified: Friday, 14th August 2020 12:31:13 pm
  * Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
  * Copyright (c) 2020 @quib_Self
@@ -33,6 +33,11 @@ h6 {
    color: #282C35;
    font-family: 'Sriracha', cursive;
 }
+.section-head{
+   padding-top: 35px;
+   font-weight: bolder;
+   font-size: 30px;
+}
 
 .banner-column h1 {
    text-align: right;
@@ -50,6 +55,9 @@ h6 {
 .nav-item{
    margin: 5px;
    padding: 2px;
+}
+.navbar-toggler{
+   margin-left: 130px;
 }
 
 .brand-image img {
@@ -92,6 +100,10 @@ h6 {
    background-color: #282C35;
 }
 
+.project-container .section-head{
+   color: bisque;
+}
+
 .card img {
    padding-top: 7px;
    width: 300px;
@@ -101,6 +113,26 @@ h6 {
 
 .card-body h4 {
    font-weight: bolder;
+}
+
+.skill-container{
+   background-color: #8C8D8F;
+}
+
+.skill-list-container h3{
+font-weight: bolder;
+color: #282C35;
+padding-bottom: 15px;
+
+}
+.skill-list {
+   padding-top: 15px;
+   padding-bottom: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.progress-bar .bg-color{
+   background-color: bisque;
 }
 
 .contact-container {
