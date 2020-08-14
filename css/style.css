@@ -3,7 +3,7 @@
  * Created: Monday, 10th August 2020 9:04:11 am
  * Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
- * Last Modified: Friday, 14th August 2020 12:31:13 pm
+ * Last Modified: Friday, 14th August 2020 12:36:01 pm
  * Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
  * Copyright (c) 2020 @quib_Self
@@ -57,7 +57,7 @@ h6 {
    padding: 2px;
 }
 .navbar-toggler{
-   margin-left: 130px;
+   float: left;
 }
 
 .brand-image img {
