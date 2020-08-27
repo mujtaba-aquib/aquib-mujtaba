@@ -3,7 +3,7 @@
  * Created: Monday, 10th August 2020 9:04:11 am
  * Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
- * Last Modified: Friday, 14th August 2020 12:36:01 pm
+ * Last Modified: Thursday, 27th August 2020 9:51:20 pm
  * Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
  * Copyright (c) 2020 @quib_Self
@@ -37,6 +37,7 @@ h6 {
    padding-top: 35px;
    font-weight: bolder;
    font-size: 30px;
+   font-family: 'Russo One',sans-serif;
 }
 
 .banner-column h1 {
@@ -75,8 +76,10 @@ h6 {
    font-weight: bold;
 }
 
-.about-container .about_tale {
+.about_tale {
    text-align: justify;
+   text-justify: inter-word;
+
 }
 
 .education-container {
@@ -98,6 +101,12 @@ h6 {
 
 .project-container {
    background-color: #282C35;
+}
+.blog-container {
+   background-color: #282C35;
+}
+.blog-container .section-head{
+   color: bisque;
 }
 
 .project-container .section-head{
