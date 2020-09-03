@@ -3,7 +3,7 @@ File: index.html
 Created: Monday, 10th August 2020 8:56:11 am
 Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
 -----
-Last Modified: Tuesday, 1st September 2020 11:23:37 pm
+Last Modified: Thursday, 3rd September 2020 9:00:32 am
 Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
 -----
 Copyright (c) 2020 @quib_Self
@@ -24,7 +24,6 @@ Copyright (c) 2020 @quib_Self
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-
     <title>AQUIB | Website</title>
 
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -44,40 +43,44 @@ Copyright (c) 2020 @quib_Self
     </section>
 
     <!--This is navbar section -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-container">
+   <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-container">
         <div class="brand-image mx-5">
+
             <a class="navbar-brand " href="#AQUIB">
                 <div class="logo-img d-none d-md-block">
                     <img src="images/aquib-logo.png" class="img-fluid img-responsive" alt="">
                 </div>
             </a>
+
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-label="Toggle navigation" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
             </button>
+
         </div>
 
         <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav ml-auto font-weight-bolder" id="nav-div">
-                <li class="nav-item active">
-                    <a href="#About" class="nav-link"  data-target=".navbar-collapse.show" >ABOUT <span class="sr-only">(current)</span></a>
+                <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a href="#About" class="nav-link" >ABOUT <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Education"  data-target=".navbar-collapse.show">EDUCATION</a>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a class="nav-link"  href="#Education" >EDUCATION</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Project" data-target=".navbar-collapse.show">PROJECT</a>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a class="nav-link" href="#Project">PROJECT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Skill" data-target=".navbar-collapse.show">SKILLS</a>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a class="nav-link" href="#Skill">SKILLS</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Blog" data-target=".navbar-collapse.show">BLOG</a>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a class="nav-link" href="#Blog">BLOG</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact" data-target=".navbar-collapse.show">CONTACT</a>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                    <a class="nav-link" href="#Contact">CONTACT</a>
                 </li>
-            </ul>
+            </ul-->
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
