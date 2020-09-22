@@ -3,7 +3,7 @@
  * Created: Monday, 10th August 2020 9:04:11 am
  * Author: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
- * Last Modified: Thursday, 3rd September 2020 10:38:54 am
+ * Last Modified: Tuesday, 22nd September 2020 12:18:53 pm
  * Modified By: Aquib Mujtaba (aquibm.cse13@gmail.com)
  * -----
  * Copyright (c) 2020 @quib_Self
@@ -133,7 +133,9 @@ h6 {
 .skill-list-container h3{
 font-weight: bolder;
 color: #282C35;
-padding-bottom: 15px;
+padding: 20px;
+font-family: monospace;
+font-size: 40px;
 
 }
 .skill-list {
